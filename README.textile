@@ -76,6 +76,8 @@ Running rake spec will run all of the specs using ActiveRecord.  To test the app
 
 h3. Changes
 
+* 1.8.2: Compatibility fix for dm-core-0.10.0.
+
 * 1.8.1: DataMapper fix to prevent failures when subjects of send_later are delayed before the job is run.
 
 * 1.8.0: Added a DataMapper adapter which is loaded instead of the ActiveRecord adapter if DataMapper is defined.
